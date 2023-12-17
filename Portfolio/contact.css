@@ -1,0 +1,141 @@
+body {
+  background-color: dodgerblue;
+}
+
+.contactform {
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  margin-left: 1rem;
+  height: 97vh;
+}
+
+.main {
+  width: 100%;
+}
+
+.contactform h1 {
+  font-size: 3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  /* margin-top: 60px; */
+  padding: 2rem;
+  color: aliceblue;
+}
+
+.form {
+  width: 40%;
+  border: 5px solid lightgray;
+  /* background-color:dodgerblue; */
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 15px 0px;
+  font-size: 1rem;
+  font-weight: bolder;
+  font-style: italic;
+  margin-left: 500px;
+  color: aliceblue;
+}
+
+.form-group,
+.form-check {
+  margin: 25px;
+}
+
+#label {
+  cursor: default;
+  margin-left: 135px;
+}
+
+small {
+  margin-left: 135px;
+}
+
+.form-check-label {
+  margin-right: 135px;
+}
+
+input[type="name"],
+input[type="email"],
+input[type="phone"] {
+  width: 50%;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  margin-left: 130px;
+}
+
+input[type="checkbox"] {
+  margin-left: 130px;
+}
+
+input[type="submit"] {
+  font-size: 1.5rem;
+  background-color: darkorange;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  padding: 15px 0px;
+  cursor: pointer;
+  width: 50%;
+  margin-left: 10rem;
+}
+
+
+@media (max-width:500px) {
+  .contactform h1 {
+    width: 100%;
+    margin: 60px 0;
+    font-size: 2rem;
+    padding: 0px;
+
+  }
+
+  .form {
+    margin: 0;
+    width: 22rem;
+  }
+
+  input[type="name"],
+  input[type="email"],
+  input[type="phone"] {
+    width: 90%;
+   margin-left: 0;
+  }
+
+  input[type="submit"] {
+    width: 82%;
+    margin-left: 2rem;
+  }
+
+  input[type="checkbox"] {
+    margin-left: 0rem;
+  }
+
+  #label {
+    cursor: default;
+    margin-left: 1rem;
+}
+
+small {
+  margin-left: 1rem;
+}
+
+.form-check-label {
+  margin-right: 0;
+}
+
+}
+
+@media (300px <= width <= 600px){
+
+}
+@media (600px <= width <= 768px){
+
+}
+@media (768px <= width <= 992px){
+
+}
+@media (992px <= width <= 1200px){
+
+}
